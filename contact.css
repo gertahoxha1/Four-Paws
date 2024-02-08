@@ -1,0 +1,183 @@
+*{
+
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #4C68CB;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.header{
+    background-color: #849EFD;
+    height: 9vh;
+   display: flex;
+   align-items: center;
+}
+
+.label{
+    display:none;
+}
+#toggle{
+    display: none;
+}
+.logo{
+    width: 50px;
+    border-radius: 15px;
+    display: flex;
+    align-content: center;
+    margin-left: 10px;
+ 
+ }
+ .title{
+     display: flex;
+     color: white;
+     font-size: 20px;
+     font-weight: bold;
+ }
+ 
+ .lista{
+     list-style-type: none;
+     display: flex;
+     justify-content: flex-end; 
+     gap: 150px;
+     font-weight: 500;  
+     position:fixed; 
+     left: 34%;
+     margin-top: 20px;
+     overflow: hidden;
+    
+ }
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+.putra{
+    width: 44%;
+    position: absolute; 
+    left: 27%;
+    top: 12%; 
+    z-index: -1;
+    opacity: 30%;
+}
+
+.left{
+    color: white;
+    margin-left: 1%;
+}
+
+.harta{
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+
+
+ .right{
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    margin-top: 80px; 
+    background-color:#849EFD;
+    border-radius: 5%;
+    
+    
+}
+
+
+.right-form input{
+    width: 80%;
+    height: 40px;    
+    margin: 10px 0;
+    border-radius: 20px;
+    border-color: white;
+}
+
+
+button{
+    margin-top: 60px;
+    margin-left: 240px;
+    margin-bottom: 2%;
+    font-size: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(20, 156, 214);
+    color: white;
+    padding: 5px 5px;
+    border-color:  rgb(20, 156, 214);   
+}
+
+
+
+input{
+    font-size: 15px;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-left: 3%;
+    margin-top: 2%;
+    border: none;
+}
+
+textarea{
+    background-color: rgb(246, 242, 242);
+    border-radius: 5px;
+    margin-top: 2%;
+    margin-left: 3%;
+} 
+
+label{
+    color: white;
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+@media screen and (max-width:768px) {
+    body{
+        overflow-x: hidden;
+    }
+    .label{
+        display: inline-block;
+        margin-left: 450px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .lista{
+        display: none;
+        text-align: center;
+        height: 300px;
+        margin-top: 355px;
+        margin-left: 108px;
+        background-color: #849EFD;
+        width: 200px;
+        padding-top: 40px;
+    }
+    .lista li{
+        margin: 20px;
+    }
+    .pics:hover{
+        transform: none;
+    }
+    .left{
+        display: block;
+        margin-left: 20px;
+    }
+    .harta{
+        margin-top:400px;
+        margin-left: -80px;
+
+    }
+    .right{
+      margin-top: 800px;
+      margin-left:-320px;
+    }
+}
+

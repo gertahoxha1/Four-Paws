@@ -1,0 +1,134 @@
+*{
+
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+     
+}
+
+body{
+    background-color: #4C68CB;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #849EFD;
+    height: 9vh;
+   display: flex;
+   align-items: center;
+}
+label{
+    display:none;
+}
+#toggle{
+    display: none;
+}
+
+.logo{
+   width: 50px;
+   border-radius: 15px;
+   display: flex;
+   align-content: center;
+   margin-left: 10px;
+
+}
+.title{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.lista{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end; 
+    gap: 150px;
+    font-weight: 500;  
+    position:fixed; 
+    left: 35%;
+    margin-top: 20px;
+    overflow: hidden;
+   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    overflow: hidden;
+    
+}
+
+.adopt{
+   width: 15%;
+   height: 40px;
+   background-color: #849EFD;
+   color: white;
+   border: none;
+   border-radius: 20px;
+   font-size: 20px;
+   margin-left: 45px;
+}
+.quota{
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.quota p{
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.putra1{
+    width: 30%;
+    transform: rotate(20deg);
+    position: absolute;
+    bottom: 0px;
+    right: 5%;
+}
+.putra2{
+    width: 30%;
+    transform: rotate(20deg);
+    position: absolute;
+    bottom: 50%;
+    right: 25%;
+    z-index: -1;
+}
+.footo{
+    width: 55%;
+    height: 55%;
+    position: absolute;
+    bottom: 0px;
+    left: px;
+}
+
+
+
+@media screen and (max-width:768px) {
+    label{
+        display: inline-block;
+        margin-left: 20%px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .lista{
+        display: none;
+        text-align: center;
+        height: 300px;
+        margin-top: 355px;
+        margin-left: 108px;
+        background-color: #849EFD;
+        width: 200px;
+        padding-top: 40px;
+    }
+    .lista li{
+        margin: 20px;
+    }
+    .pics:hover{
+        transform: none;
+    }
+ 
+}

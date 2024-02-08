@@ -1,0 +1,112 @@
+*{
+
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+     
+}
+
+body{
+    background-color: #4C68CB;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #849EFD;
+    height: 9vh;
+   display: flex;
+   align-items: center;
+}
+
+.logo{
+    width: 50px;
+    border-radius: 15px;
+    display: flex;
+    align-content: center;
+    margin-left: 10px;
+}
+label{
+    display:none;
+}
+#toggle{
+    display: none;
+}
+ .title{
+     color: white;
+     font-size: 20px;
+     font-weight: bold;
+     position: static;
+     margin-left: 3px;
+ }
+ 
+ .lista{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end; 
+    gap: 150px;
+    font-weight: 500;  
+    position:fixed; 
+    left: 35%;
+    margin-top: 20px;
+    overflow: hidden;
+ }
+ 
+ a{
+     text-decoration: none;
+     color: white;
+     font-size: 20px;
+      overflow: hidden;
+ }
+
+ .textbox{
+  color: white;
+  position: relative;
+  margin-left: 1%;
+  z-index: 1;   
+ }
+
+ .dogs{
+    width: 45%;
+    position: absolute;
+    top: 25%;
+    left: 53%;
+    border-radius: 5%;
+
+ }
+.putra{
+    width: 44%;
+    position: absolute; 
+    left: 27%;
+    top: 12%; 
+    z-index: -1;
+    opacity: 30%;
+}
+@media screen and (max-width:768px) {
+    label{
+        display: inline-block;
+        margin-left: 280px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .lista{
+        display: none;
+        text-align: center;
+        height: 300px;
+        margin-top: 355px;
+        margin-left: 108px;
+        background-color: #849EFD;
+        width: 200px;
+        padding-top: 40px;
+    }
+    .lista li{
+        margin: 20px;
+    }
+    .pics:hover{
+        transform: none;
+    }
+    .dogs{
+        display: none;
+    }
+}
